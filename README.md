@@ -1,12 +1,12 @@
-# HAPPY ERC20 Token Contract
+# HAPPY BEP20 Token Contract
 
-The HAPPY ERC20 token contract running on the Ethereum blockchain.
+The HAPPY BEP20 token contract running on the Binance Smart Chain.
 
 
-## Ethereum
+## Binance Smart Chain
 
 The deployed contracts with verified source code can be found at the following addresses.
 
 Contract | Address
 ---|---
-HappyFansToken | 0x3079F61704E9eFa2BcF1db412f735d8d4cFa26f4
+HappyFansToken | 0xF5d8A096CcCb31b9D7bcE5afE812BE23e3D4690d
