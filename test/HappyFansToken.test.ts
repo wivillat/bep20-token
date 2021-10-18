@@ -127,7 +127,7 @@ describe("HappyFansToken Contract Test Suite", () => {
       expect(await happy.name()).equal("HappyFans");
     });
 
-    it("Should have the symbol WAG", async () => {
+    it("Should have the symbol HAPPY", async () => {
       expect(await happy.symbol()).equal("HAPPY");
     });
   
@@ -244,7 +244,7 @@ describe("HappyFansToken Contract Test Suite", () => {
     
   describe("Whitelist", () => {
   
-    it("creating the LGE whitelist requires duration and amountsMax of equal length", async () => {
+    it("Creating the LGE whitelist requires duration and amountsMax of equal length", async () => {
       let durations = [1200];
       let amountsMax = [tokens("10000"), tokens("10")];
 
@@ -253,7 +253,7 @@ describe("HappyFansToken Contract Test Suite", () => {
       durations = [];
       amountsMax = [];
 
-      await happy.createLGEWhitelist(ZeroAddress, durations, amountsMax); // shouldn't this revert since we're sending it the ZeroAddress?
+      await happy.createLGEWhitelist(ZeroAddress, durations, amountsMax); 
     });
 
     it("Adding liquidity activates the whitelist", async () => {
